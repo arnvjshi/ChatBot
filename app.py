@@ -6,7 +6,7 @@ from langdetect import detect
 # Streamlit UI
 st.title("AI ChatBOT")
 
-# Add a text input for the API token
+#API token
 api_key = "Your API key"
 # Set up the model
 model = "HuggingFaceH4/starchat-beta"
