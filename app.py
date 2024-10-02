@@ -7,7 +7,7 @@ from langdetect import detect
 st.title("AI ChatBOT")
 
 #API token
-api_key = "Your API key"
+api_key = "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"
 # Set up the model
 model = "HuggingFaceH4/starchat-beta"
 
