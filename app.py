@@ -62,7 +62,7 @@ def generate_response(user_input):
 if api_key:
     llm_chain = create_llm_chain(api_key)
     
-    user_input = st.text_input("User:", "")
+    user_input = st.text_input("Enter Your Prompt:", "")
     if st.button("Enter"):
         response = generate_response(user_input)
         st.text_area("ChatBot:", response, height=200)
