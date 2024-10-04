@@ -7,7 +7,7 @@ from langdetect import detect
 st.title("AI ChatBOT")
 
 #API token
-api_key = "Your API key"
+api_key = "API_key"
 # Set up the model
 model = "HuggingFaceH4/starchat-beta"
 
@@ -28,7 +28,7 @@ def create_llm_chain(api_key):
     
     prompt_template = PromptTemplate(
         input_variables=["user_input"],
-        template="User: {user_input}\nChatBot: "
+        template="User:{user_input}\nChatBot: "
     )
     
     return LLMChain(prompt=prompt_template, llm=llm)
