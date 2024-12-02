@@ -1,0 +1,6 @@
+streamlit
+langchain
+HuggingFaceHub
+LLMChain
+PromptTemplate
+langdetect
